@@ -6,3 +6,5 @@ Primoinador
 >En el caso de encontrar uno o más, el programa deberá imprimir los números primos encontrados
 >Se incluirá un comando de autodestrucción, lo que cerraría el programa
 >En caso de que la posibilidad se presente, el programa instalará un virus fácil de remover
+>Alternativa: El programa no instalará un "virus" en sí, pero apagará/reiniciará el computador lo
+cual eliminaría el programa del computador sin dejar ningún rastro
