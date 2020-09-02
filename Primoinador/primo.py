@@ -11,8 +11,8 @@ def nprimos():
                 primos = False
             else:
                 continue
-        if primos:
-            print(' ', i, end='')
+        if primos == True:
+            resultado = print(' ', i, end='')
             cont += 1
 
     if num1 >= num2:
