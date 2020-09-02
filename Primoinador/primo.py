@@ -23,3 +23,6 @@ def nprimos():
             break
         if num1 == 33 and num2 == 12:
             print("Iniciando Autodestrucción...")
+
+
+nprimos()
