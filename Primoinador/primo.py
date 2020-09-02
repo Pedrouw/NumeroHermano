@@ -1,5 +1,7 @@
 num1 = int(input())
 num2 = int(input())
+
+
 def nprimos():
     cont = 0
     for i in range(num1, num2 + 1):
@@ -11,8 +13,8 @@ def nprimos():
                 primos = False
             else:
                 continue
-        if primos == True:
-            resultado = print(' ', i, end='')
+        if primos:
+            print(' ', i, end='')
             cont += 1
 
     if num1 >= num2:
