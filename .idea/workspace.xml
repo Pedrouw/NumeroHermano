@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -17,8 +24,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Primoinador/venv" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -32,17 +39,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="537" y="242" key="#com.intellij.tools.ToolEditorDialog" timestamp="1598999760993">
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599010918941">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="537" y="242" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1598999760993" />
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1598999759487">
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1599010918941" />
+    <state x="537" y="242" width="460" height="341" key="#com.intellij.tools.ToolEditorDialog" timestamp="1599012005593">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598999759487" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1598999887983">
+    <state x="537" y="242" width="460" height="341" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1599012005593" />
+    <state x="626" y="110" key="FileChooserDialogImpl" timestamp="1599014992482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598999887983" />
+    <state x="626" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599014992482" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1599012049571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599012049571" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1599012049571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599012049571" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1599012049570">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599012049570" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1599012049571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599012049571" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1599015103812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599015103812" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599012490767">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599012490767" />
   </component>
 </project>
