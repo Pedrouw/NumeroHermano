@@ -1,5 +1,10 @@
-num1 = int(input())
-num2 = int(input())
+print("El Primoinador!")
+
+try:
+    num1 = int(input())
+    num2 = int(input())
+except ValueError:
+    print("Por favor, ingrese un número")
 
 
 def nprimos():
