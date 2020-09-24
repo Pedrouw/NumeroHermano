@@ -60,3 +60,12 @@ class Ui_ElVirus(object):
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
         self.label.setText(_translate("ElVirus", "Del"))
         self.label_2.setText(_translate("ElVirus", "AL"))
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    ElVirus = QtWidgets.QWidget()
+    ui = Ui_ElVirus()
+    ui.setupUi(ElVirus)
+    ElVirus.show()
+    sys.exit(app.exec_())
