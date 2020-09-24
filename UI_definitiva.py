@@ -46,12 +46,18 @@ class Ui_MainWindow(object):
         self.textBrowser.setObjectName("textBrowser")
         self.spinBox = QtWidgets.QSpinBox(self.centralwidget)
         self.spinBox.setGeometry(QtCore.QRect(240, 130, 91, 51))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.spinBox.setFont(font)
         self.spinBox.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
         self.spinBox.setMaximum(999999)
         self.spinBox.setProperty("value", 0)
         self.spinBox.setObjectName("spinBox")
         self.spinBox_2 = QtWidgets.QSpinBox(self.centralwidget)
         self.spinBox_2.setGeometry(QtCore.QRect(540, 130, 91, 51))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.spinBox_2.setFont(font)
         self.spinBox_2.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
         self.spinBox_2.setObjectName("spinBox_2")
         MainWindow.setCentralWidget(self.centralwidget)
@@ -64,7 +70,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "El Primoinador"))
         self.label.setText(_translate("MainWindow", "El Primoinador!"))
         self.pushButton.setText(_translate("MainWindow", "Encontrar primos"))
         self.label_2.setText(_translate("MainWindow", "Desde el:"))
