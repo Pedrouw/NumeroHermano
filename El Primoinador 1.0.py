@@ -48,6 +48,7 @@ class Ui_MainWindow(object):
         self.textBrowser.setGeometry(QtCore.QRect(170, 270, 441, 261))
         self.textBrowser.setObjectName("textBrowser")
 
+
         self.spinBox = QtWidgets.QSpinBox(self.centralwidget)
         self.spinBox.setGeometry(QtCore.QRect(240, 130, 91, 51))
 
@@ -55,7 +56,7 @@ class Ui_MainWindow(object):
         font.setPointSize(12)
 
         self.spinBox.setFont(font)
-        self.spinBox.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
+        self.spinBox.setButtonSymbols(QtWidgets.QAbstractSpinBox.UpDownArrows)
         self.spinBox.setMaximum(999999)
         self.spinBox.setProperty("value", 0)
         self.spinBox.setObjectName("spinBox")
@@ -66,7 +67,7 @@ class Ui_MainWindow(object):
         font.setPointSize(12)
 
         self.spinBox_2.setFont(font)
-        self.spinBox_2.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
+        self.spinBox_2.setButtonSymbols(QtWidgets.QAbstractSpinBox.UpDownArrows)
         self.spinBox_2.setObjectName("spinBox_2")
 
         MainWindow.setCentralWidget(self.centralwidget)
@@ -83,6 +84,7 @@ class Ui_MainWindow(object):
         num1 = self.spinBox.value()
         num2 = self.spinBox_2.value()
         cont = 0
+        result = []
         for i in range(num1, num2 + 1):
             primos = True
             for j in range (2, 10):
@@ -93,8 +95,18 @@ class Ui_MainWindow(object):
                 else:
                     continue
             if primos:
-                print(' ', i, end='')
+                result.append(i) 
                 cont += 1
+
+        if num1 >= num2:
+            while num1 != 33 and num2 != 12:
+                self.textBrowser.append("El primer número indicado debe ser menor")
+                break
+            if num1 == 33 and num2 == 12:
+                self.textBrowser.append("Iniciando Autodestrución...")
+        else:
+            self.textBrowser.append(str(result))
+
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
