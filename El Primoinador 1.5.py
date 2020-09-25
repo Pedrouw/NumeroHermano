@@ -1,3 +1,4 @@
+import time
 from types import MethodType
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -104,7 +105,9 @@ class Ui_MainWindow(object):
                 self.textBrowser.append("El primer número indicado debe ser menor")
                 break
             if num1 == 33 and num2 == 12:
-                self.textBrowser.append("Iniciando Autodestrución...")
+                self.textBrowser.setText("¡33-12! ¡TENEMOS UN 33-12!")
+                time.sleep(5)
+                exit()
         else:
             self.textBrowser.append(str(result))
 
