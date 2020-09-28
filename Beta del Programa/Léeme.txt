@@ -1,0 +1,16 @@
+Así funcionaría el pop up en la versión final, 
+similar a como se vé en el ejecutable pero con nuestro toque añadido ;)
+
+NOTA DE ACTUALIZACIÓN 1.6: Al parecer el archivo no funciona en otras computadoras...
+intente transformar el archivo .bat a un punto .exe para ver si se corregía el problema
+pero creo que el problema podría venir por esta línea del código:
+
+"call([r'C:\Users\Javiera Letelier\El Primoinador\Versión beta 2\run.bat'])"
+
+Por el momento no encontre un posible sustituto... si el problema persiste entonces es 
+definitivamente esta línea de código
+
+NOTA DE ACTUALIZACIÓN 1.7: Intente hacer unos ajustes al código del programa que ahora viene adjunto al git...
+no encontré un sustituto todavía pero hice otros ajustes esperando a que funcione
+
+-Javiera Letelier
