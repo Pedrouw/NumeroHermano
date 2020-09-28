@@ -13,4 +13,7 @@ definitivamente esta línea de código
 NOTA DE ACTUALIZACIÓN 1.7: Intente hacer unos ajustes al código del programa que ahora viene adjunto al git...
 no encontré un sustituto todavía pero hice otros ajustes esperando a que funcione
 
+NOTA DE ACTUALIZACIÓN 1.8: Cambie la ubicación a la root C:\ para no tener que establecer mi carpeta personal
+en el código
+
 -Javiera Letelier
