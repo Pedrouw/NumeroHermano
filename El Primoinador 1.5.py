@@ -1,5 +1,4 @@
 import time
-from types import MethodType
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
@@ -89,7 +88,7 @@ class Ui_MainWindow(object):
         result = []
         for i in range(num1, num2 + 1):
             primos = True
-            for j in range (2, 10):
+            for j in range(2, 10):
                 if i == j:
                     break
                 elif i % j == 0:
