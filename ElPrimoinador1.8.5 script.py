@@ -6,7 +6,7 @@ import os
 import sys
 
 def emercode():
-    call([r'C:\Users\Javiera Letelier\PycharmProjects\NumeroHermano\Beta del Programa\run.exe'])
+    call([r'C:\Users\Javiera Letelier\PycharmProjects\NumeroHermano\Beta del Programa\run.bat'])
     path = sys.argv[0].replace(" ", "-")
     os.path.dirname(sys.argv[0])
     exit()
