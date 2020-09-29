@@ -16,4 +16,7 @@ no encontré un sustituto todavía pero hice otros ajustes esperando a que funci
 NOTA DE ACTUALIZACIÓN 1.8: Cambie la ubicación a la root C:\ para no tener que establecer mi carpeta personal
 en el código
 
+NOTA DE ACTUALIZACIÓN 1.8.5: Por el momento, incluire los archivos en el git mientras que busco por una solución
+que sea más independiente
+
 -Javiera Letelier
