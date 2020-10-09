@@ -74,6 +74,7 @@ class Ui_MainWindow(object):
         self.spinBox.setObjectName("spinBox")
         self.spinBox_2 = QtWidgets.QSpinBox(self.centralwidget)
         self.spinBox_2.setGeometry(QtCore.QRect(540, 130, 91, 51))
+        self.spinBox_2.setMaximum(999999)
 
         font = QtGui.QFont()
         font.setPointSize(12)
